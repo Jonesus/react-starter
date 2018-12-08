@@ -11,10 +11,16 @@
     "dev": "webpack-dev-server --mode development --config ./build/webpack.dev.config.js",
     "check-types": "tsc"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/react": "^16.7.13",
+    "@types/react-dom": "^16.0.11",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
   "devDependencies": {
     "@babel/core": "^7.2.0",
     "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
     "@babel/preset-typescript": "^7.1.0",
     "autoprefixer": "^9.4.2",
     "babel-loader": "^8.0.4",
@@ -26,6 +32,7 @@
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "postcss-loader": "^3.0.0",
     "sass-loader": "^7.1.0",
+    "source-map-loader": "^0.2.4",
     "style-loader": "^0.23.1",
     "svg-url-loader": "^2.3.2",
     "typescript": "^3.2.2",
