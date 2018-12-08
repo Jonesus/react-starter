@@ -1,8 +1,8 @@
 {
-  "name": "starter",
+  "name": "React starter",
   "version": "0.0.1",
-  "description": "Starter boilerplate for web stuff",
-  "repository": "",
+  "description": "Starter boilerplate for react stuff",
+  "repository": "https://github.com/Jonesus/react-starter",
   "author": "Joonas Palosuo",
   "license": "MIT",
   "main": "app.js",
