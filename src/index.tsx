@@ -1,7 +1,9 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-ReactDOM.render(
-    <h1>Hello world!</h1>,
-    document.getElementById("root")
-);
+import { Greeter } from "src/components/Greeter";
+import "./styles.scss";
+
+const App: React.SFC<{}> = () => <Greeter target="foo" />;
+
+ReactDOM.render(<App />, document.getElementById("root"));
